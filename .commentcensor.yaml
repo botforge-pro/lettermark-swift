@@ -1,0 +1,4 @@
+documentation: https://botforge-pro.github.io/lettermark-swift/data/documentation/lettermark.json
+
+skip:
+  - .build/
