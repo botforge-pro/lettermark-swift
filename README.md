@@ -58,7 +58,7 @@ answered here or fails loudly. `make sync-corpus` brings a fresh copy over.
 ## Lines of Code
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset=".github/loc-history-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset=".github/loc-history-light.svg">
-  <img alt="Lines of Code graph" src=".github/loc-history-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/botforge-pro/lettermark-swift/main/.github/loc-history-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/botforge-pro/lettermark-swift/main/.github/loc-history-light.svg">
+  <img alt="Lines of Code graph" src="https://raw.githubusercontent.com/botforge-pro/lettermark-swift/main/.github/loc-history-light.svg">
 </picture>
