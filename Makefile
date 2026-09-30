@@ -1,9 +1,6 @@
-LEADING_CORPUS = ../lettermark/cases.yaml
-TEST_RESOURCES_DIR = Tests/LettermarkTests/Resources
-
 .DEFAULT_GOAL := build
 
-.PHONY: install-tools build test-build test docs format comments lint lint-fix clean install sync-corpus
+.PHONY: install-tools build test-build test docs format comments lint lint-fix clean install
 
 install-tools:
 	brew install swiftlint swift-format
@@ -44,6 +41,3 @@ clean:
 
 install:
 	$(MAKE) install-tools
-
-sync-corpus:
-	cp $(LEADING_CORPUS) $(TEST_RESOURCES_DIR)/cases.yaml
