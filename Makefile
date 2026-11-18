@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := build
 
-.PHONY: install-tools build test-build test docs format comments lint lint-fix clean install
+.PHONY: install-tools build test-build test docs format comments lint lint-fix install
 
 install-tools:
 	brew install swiftlint swift-format
@@ -34,10 +34,6 @@ build: lint test-build test docs
 
 lint-fix:
 	$(MAKE) format
-
-clean:
-	swift package clean
-	rm -rf .build Package.resolved
 
 install:
 	$(MAKE) install-tools
